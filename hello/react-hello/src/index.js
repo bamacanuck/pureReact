@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 
 function HelloWorld () {
     return (
-        <div>hello, world</div>
+        <div>hello, world...</div>
     );
 }
+
 
 ReactDOM.render(
     <HelloWorld/>,
