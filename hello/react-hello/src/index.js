@@ -9,7 +9,9 @@ function HelloWorld () {
 
 function HelloWorld () {
     return React.createElement (
-        <div>hello, world...</div>
+        'div',
+        {},
+        "hello, world..."
     );
 }
 
