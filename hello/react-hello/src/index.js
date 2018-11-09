@@ -7,13 +7,13 @@ function HelloWorld () {
     );
 }
 
-function HelloWorld () {
-    return React.createElement (
-        'div',
-        {},
-        "hello, world..."
-    );
-}
+// function HelloWorld () {
+//     return React.createElement (
+//         'div',
+//         {},
+//         "hello, world, and you..."
+//     );
+// }
 
 ReactDOM.render(
     <HelloWorld/>,
