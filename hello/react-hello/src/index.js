@@ -7,6 +7,12 @@ function HelloWorld () {
     );
 }
 
+function HelloWorld () {
+    return React.createElement (
+        <div>hello, world...</div>
+    );
+}
+
 ReactDOM.render(
     <HelloWorld/>,
     document.querySelector("#root")
