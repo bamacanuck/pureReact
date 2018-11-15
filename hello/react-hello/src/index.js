@@ -38,15 +38,19 @@ function HelloWorld () {
     return React.createElement (
         'div',
         {},
+        "a",
         React.createElement (
             'div',
             {},
+            <br/>,
             React.createElement (
                 'div',
                 {},
+                "b",
                 React.createElement (
                     'div',
                     {},
+                    <br/>,
                     React.createElement (
                         'div',
                         {},
