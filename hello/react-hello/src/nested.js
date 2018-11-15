@@ -49,5 +49,5 @@ function HelloWorld () {
 
 ReactDOM.render(
     <HelloWorld/>,
-    document.querySelector("#root")
+    document.querySelector("#rootx")
 );
