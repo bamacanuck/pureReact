@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// function HelloWorld () {
-//     return (
-//         <div>hello, world...</div>
-//     );
-// }
+function HelloWorld () {
+    return (
+        <div>hello, world...</div>
+    );
+}
 
 function Hello () {
     return (
@@ -116,15 +116,8 @@ function World () {
 //     );
 // }
 
-// ReactDOM.render(
-//     <HelloWorld/>,
-//     document.querySelector("#root")
-// );
 
-
-// below version of render DOES NOT work
 ReactDOM.render(
-    <Hello/>,
-    <World/>,
+    <HelloWorld/>,
     document.querySelector("#root")
 );
