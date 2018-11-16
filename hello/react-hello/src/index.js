@@ -90,6 +90,7 @@ function HelloWorld () {
     );
 }
 
+function songName (props) {}
 
 
 ReactDOM.render(
