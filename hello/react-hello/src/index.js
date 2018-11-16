@@ -7,10 +7,19 @@ import ReactDOM from "react-dom";
 //     );
 // }
 
-function HelloWorld () {
+function Hello () {
     return (
         <div>
             <span>hello,</span>
+            {/* <span> world...</span> */}
+        </div>
+    );
+}
+
+function World () {
+    return (
+        <div>
+            {/* <span>hello,</span> */}
             <span> world...</span>
         </div>
     );
