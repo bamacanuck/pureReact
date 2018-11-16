@@ -90,13 +90,13 @@ function HelloWorld () {
     );
 }
 
-function songName (props) {
-    return (
-        <span className="song-name">
-            {props.song.name}
-        </span>
-    );
-}
+// function songName (props) {
+//     return (
+//         <span className="song-name">
+//             {props.song.name}
+//         </span>
+//     );
+// }
 
 
 ReactDOM.render(
