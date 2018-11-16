@@ -116,8 +116,13 @@ function World () {
 //     );
 // }
 
+// ReactDOM.render(
+//     <HelloWorld/>,
+//     document.querySelector("#root")
+// );
 
 ReactDOM.render(
-    <HelloWorld/>,
+    <Hello/>,
+    <World/>,
     document.querySelector("#root")
 );
