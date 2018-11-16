@@ -90,7 +90,13 @@ function HelloWorld () {
     );
 }
 
-function songName (props) {}
+function songName (props) {
+    return (
+        <span className="song-name">
+
+        </span>
+    )
+}
 
 
 ReactDOM.render(
