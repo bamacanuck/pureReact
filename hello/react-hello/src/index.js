@@ -121,6 +121,8 @@ function World () {
 //     document.querySelector("#root")
 // );
 
+
+// below version of render DOES NOT work
 ReactDOM.render(
     <Hello/>,
     <World/>,
