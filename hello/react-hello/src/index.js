@@ -10,8 +10,8 @@ import ReactDOM from "react-dom";
 function HelloWorld () {
     return (
         <div>
-            <div>hello,</div>
-            <div> world...</div>
+            <span>hello,</span>
+            <span> world...</span>
         </div>
     );
 }
