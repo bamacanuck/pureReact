@@ -93,9 +93,9 @@ function HelloWorld () {
 function songName (props) {
     return (
         <span className="song-name">
-
+            {props.song.name}
         </span>
-    )
+    );
 }
 
 
