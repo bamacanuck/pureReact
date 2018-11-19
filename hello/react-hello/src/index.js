@@ -3,15 +3,17 @@ import ReactDOM from "react-dom";
 
 function HelloWorld () {
     return (
-        <Hello/>,<World/>
+        <div>
+            <Hello/>
+            <World/>
+        </div>
     );
 }
 
 function Hello () {
     return (
         <div>
-            <span>hello,</span>
-            {/* <span> world...</span> */}
+            <span>hello, </span>
         </div>
     );
 }
@@ -19,7 +21,6 @@ function Hello () {
 function World () {
     return (
         <div>
-            {/* <span>hello,</span> */}
             <span> world...</span>
         </div>
     );
