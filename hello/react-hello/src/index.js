@@ -6,24 +6,19 @@ function HelloWorld () {
         <div>
             <Hello/>
             <World/>
-            !!!
         </div>
     );
 }
 
 function Hello () {
     return (
-        <div>
-            <span>hello, </span>
-        </div>
+        <span>hello, </span>
     );
 }
 
 function World () {
     return (
-        <div>
-            <span> world...</span>
-        </div>
+        <span> world...</span>
     );
 }
 
