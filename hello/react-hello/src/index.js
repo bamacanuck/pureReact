@@ -1,17 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// function HelloWorld () {
-//     return (
-//         <div>
-//             <Hello/><World/>(!)
-//         </div>
-//     );
-// }
-
 function HelloWorld () {
-    return [<Hello/>,<World/>," (!)"];
+    return (
+        <div>
+            <Hello/><World/>(!)
+        </div>
+    );
 }
+
+// function HelloWorld () {
+//     return [<Hello/>,<World/>," (!)"];
+// }
 
 function Hello () {
     return (
@@ -21,7 +21,7 @@ function Hello () {
 
 function World () {
     return (
-        <span>world</span>
+        <span>world </span>
     );
 }
 
