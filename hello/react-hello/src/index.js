@@ -18,6 +18,15 @@ function NameCells () {
     );
 }
 
+// function NameCells () {
+//     return (
+//         <React.Fragment>
+//             <td>first name</td>
+//             <td>last name</td>
+//         </React.Fragment>
+//     );
+// }
+
 // function HelloWorld () {
 //     return [<Hello/>,<World/>," (!)"];
 // }
