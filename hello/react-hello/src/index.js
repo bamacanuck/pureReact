@@ -5,6 +5,7 @@ function HelloWorld () {
     return (
         <div>
             <Hello/>
+            <Inbtw/>
             <World/>
         </div>
     );
@@ -12,7 +13,13 @@ function HelloWorld () {
 
 function Hello () {
     return (
-        <span>hello, </span>
+        <span>hello </span>
+    );
+}
+
+function Inbtw () {
+    return (
+        <span>... </span>
     );
 }
 
