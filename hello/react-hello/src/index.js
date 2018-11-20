@@ -1,12 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// function HelloWorld () {
+//     return (
+//         <div>
+//             <Hello/><World/>(!)
+//         </div>
+//     );
+// }
+
 function HelloWorld () {
-    return (
-        <div>
-            <Hello/><World/> (!)
-        </div>
-    );
+    return [<Hello/>,<World/>," (!)"];
 }
 
 function Hello () {
