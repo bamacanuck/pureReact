@@ -4,20 +4,28 @@ import ReactDOM from "react-dom";
 function HelloWorld () {
     return (
         <div>
-            <Hello/><World/> (!)
+            <Hello/>
+            <Inbtw/>
+            <World/>
         </div>
     );
 }
 
 function Hello () {
     return (
-        <span>hello, </span>
+        <span>hello</span>
+    );
+}
+
+function Inbtw () {
+    return (
+        <span>... ... ...</span>
     );
 }
 
 function World () {
     return (
-        <span>world</span>
+        <span> world...</span>
     );
 }
 
