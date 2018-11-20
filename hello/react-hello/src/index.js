@@ -9,6 +9,15 @@ function HelloWorld () {
     );
 }
 
+function NameCells () {
+    return (
+        <>
+            <td>first name</td>
+            <td>last name</td>
+        </>
+    );
+}
+
 // function HelloWorld () {
 //     return [<Hello/>,<World/>," (!)"];
 // }
@@ -118,6 +127,6 @@ function World () {
 
 
 ReactDOM.render(
-    <HelloWorld/>,
+    <NameCells/>,
     document.querySelector("#root")
 );
